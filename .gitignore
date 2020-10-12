@@ -6,11 +6,18 @@ __pycache__/
 # C extensions
 *.so
 
-# Ignore all text files
+# Ignore text files
 token.txt
 
 #Ignore folders
 checkpoint/
+
+#Ignore python scripts
+streamlit_app_ignore.py
+lyrics_bot_mayer.py
+
+#ignore other files
+.DS_Store
 
 # Distribution / packaging
 .Python
@@ -83,6 +90,7 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 App_Sandbox.ipynb
+03_Clustering_Model-Copy1.ipynb
 
 # IPython
 profile_default/

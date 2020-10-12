@@ -4,6 +4,10 @@
 
 Overcoming writers block and writing creative lyrics can be a difficult task for most musicians, which leads to frustration and feeling "stuck". For this project, I have created a text generation model that is trained on a specific artist and suggests the next few words for an inputted song lyric in order to help musicians create new lyrics. 
 
+#### Executive Summary
+
+
+
 The model has been created using [GPT-2 Simple](https://github.com/minimaxir/gpt-2-simple) and uses a .py script to run an interactive terminal program where the user can write new lyrics. Upon exiting the program, the user receives a score based on what % of the lyrics were Human Generated vs. AI Generated. 
 
 As a proof of concept, I narrowed in on John Mayer's lyrics to train the model and write song lyrics. 
@@ -52,7 +56,7 @@ My clustering model identified a few outliers within the dataset. In the graph b
 
 As one might expect for the same artist, their individual songs are similar. We did find two outliers here:
 
-*  "Wanna Be Startin' Somethin'"(2) is in this list because it is not an original John Mayer song and was not labeled as so, which is why it passed our data cleaning where covers were removed. 
+*  "Wanna Be Startin' Somethin'"(0) is in this list because it is not an original John Mayer song and was not labeled as so, which is why it passed our data cleaning where covers were removed. 
 * However, "Say" (1) is a very popular song, however, there is not a whole lot of variation in the lyrics. It is mostly `say what you need to say` for the whole song, which is why I imagine it shows up in it's own cluster. 
 
 <img src="./imgs/john_mayer_cluster.jpeg"> 
