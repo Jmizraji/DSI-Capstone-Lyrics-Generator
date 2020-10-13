@@ -61,7 +61,7 @@ My clustering model identified a few outliers within the dataset. In the graph b
 
 **John Mayer's Songs**
 
-I wanted to go one level deeper and investigate John Mayer's songs because I originally trained my model on his lyrics. Some notable words he uses are `love`, `say`, `heart`, `life`, `man`, `good`, `home` . These relate to his subject matter as well as match common words in Folk/Americana songs. 
+I wanted to go one level deeper and investigate John Mayer's songs because I originally trained my model on his lyrics. Some notable words he uses are `love`, `say`, `heart`, `life`, `man`, `good`, `home` . These relate to his subject matter as well as matches common words in Folk/Americana songs. 
 
 <img src="./imgs/freq_john_mayer.jpeg">
 
@@ -88,11 +88,11 @@ Based on the sheer size of a GPT-2 model, even trained on the smallest size (124
 
 (*Prerequisite - Must have [Streamlit](https://docs.streamlit.io/en/stable/), [GPT-2-Simple](https://github.com/minimaxir/gpt-2-simple), and the [models](https://drive.google.com/drive/folders/1Sa4U3EtqBi82CYAVrEe5676sWZ0_Pom0?usp=sharing) installed/downloaded*)
 
-1. In your Terminal, run `$ streamlit run code/streamlit_app.py` 
-2. Select an artist to write like
-3. Type an unfinished lyric and press command + ENTER
-4. Click "Generate Lyrics" to see your output
-5. Use the Tuning Parameters to manipulate the generated outputs
+1. In your Terminal, **run** `$ streamlit run code/streamlit_app.py` 
+2. Select an **artist** to write like
+3. Type an **unfinished lyric** and press command + ENTER
+4. Click **"Generate Lyrics"** to see your output
+5. Use the **Tuning Parameters** to manipulate the generated outputs
 
 `Number of Tokens:` number of tokens in generated text
 
