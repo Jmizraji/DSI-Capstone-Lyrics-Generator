@@ -88,7 +88,7 @@ Based on the sheer size of a GPT-2 model, even trained on the smallest size (124
 
 (*Prerequisite - Must have [Streamlit](https://docs.streamlit.io/en/stable/), [GPT-2-Simple](https://github.com/minimaxir/gpt-2-simple), and the [models](https://drive.google.com/drive/folders/1Sa4U3EtqBi82CYAVrEe5676sWZ0_Pom0?usp=sharing) installed/downloaded*)
 
-1. In your Terminal, run `$ streamlit run streamlit_app.py` 
+1. In your Terminal, run `$ streamlit run code/streamlit_app.py` 
 2. Select an artist to write like
 3. Type an unfinished lyric and press command + ENTER
 4. Click "Generate Lyrics" to see your output
