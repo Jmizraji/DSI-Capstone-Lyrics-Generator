@@ -12,7 +12,7 @@ As a proof of concept, I trained 3 models on John Mayer, Jack Johnson, and Shawn
 
 * Using GPT-2, it is entirely possible to create a lyrics generator trained by a specific artist with dynamic outputs
 * Even a few suggestions can help remove writer’s block and spark “creativity”
-* GPT-2 is extremely powerful, however, note the tradeoff that that it is very black box and computationally intensive
+* GPT-2 is extremely powerful, however, note the tradeoff that it is very black box and computationally intensive
 * Creating interactive apps is an excellent way to showcase the different parameters of a model and help interested people become familiar
 
 Future iterations of the project include training models on [Google's BERT](https://github.com/google-research/bert) as well as more artists, genres, and even mood. 
