@@ -60,6 +60,8 @@ st.title("Song Lyrics Generator Using GPT-2")
 st.markdown(
 '''
 This is a demo of a text generation model trained with GPT-2 to generate song lyrics that sound like John Mayer, Jack Johnson, and Shawn Mendes.
+
+*For additional questions and inquiries, please contact Josh Mizraji via [LinkedIn](https://www.linkedin.com/in/joshuamizraji/) or [Github](https://github.com/Jmizraji/DSI-Capstone-Lyrics-Generator).*
 ''')
 
 #Section to select artist model to use
@@ -67,10 +69,10 @@ st.subheader('Select an artist to write like:')
 
 #artist dict
 artist_dict = {
-    "John Mayer": "run1", #run1 was trained better so using this over John_Mayer
-    "Jack Johnson" : "Jack_Johnson",
-    "Shawn Mendes" : "Shawn_Mendes"
-}
+    "John Mayer" : "JohnMayer",
+    "Jack Johnson" : "JackJohnson",
+    "Shawn Mendes" : "ShawnMendes"
+ }
 
 #display artists model options
 artist_selection = st.radio(label='',options=[key for key in artist_dict.keys()])
